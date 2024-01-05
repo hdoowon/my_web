@@ -15,6 +15,18 @@
         }
         rl{
             font-size: 24px;
+            padding-left: 20px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+            border-bottom: 2px solid gray;
+        }
+        ol a{
+            text-decoration: underline;
+        }
+        h2{
+            padding-left: 20px;
         }
     </style>
 </head>
@@ -22,26 +34,25 @@
 <body>
 
     <h1><a href="index.html">2024년 계획</a></h1>
+    <div id="grid">
     <rl>
         <li><a href ="my1.html" style="color: red; text-decoration: underline;" >겨울방학</a></li>
         <li><a href ="my2.html">4학년 1학기</a></li>
         <li><a href ="my3.html">여름방학</a></li>
         <li><a href ="my4.html">4학년 2학기</a></li>
     </rl>
-
+    <img src="winter.jpg" width="100%">
+    </div>
+    <br>
     <h2>겨울방학 계획</h2>
     <ol>
-        <li><strong><a href="https://wikibook.github.io/html-css-js-rev/html.html"
-            target="_blank" title="생활코딩">웹 프로그래밍</a> 공부</strong></li>
-            <p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/tZooW6PritE?si=WrAAbNmnEzlGrnu_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </p>
+        <li><strong><a href="web programming.html">웹 프로그래밍</a> 공부</strong><input type="checkbox"></li>
         <li><strong><a href="https://www.youtube.com/@MasterNKS/playlists" 
-            target="_blank" title="java의 정석 유튜브">java</a> 공부</strong></li>
-        <li>주식 공부</li>
-        <li>국내 혼자 여행 1번</li>
-        <li>캠핑</li>
-        <li>아두이노, 파이썬</li>
+            target="_blank" title="java의 정석 유튜브">java</a> 공부</strong><input type="checkbox"></li>
+        <li>주식 공부<input type="checkbox"></li>
+        <li>국내 혼자 여행 1번<input type="checkbox"></li>
+        <li>캠핑<input type="checkbox"></li>
+        <li>아두이노, 파이썬<input type="checkbox"></li>
         <img src="camping.jpg" width="600">
     </ol>
 
