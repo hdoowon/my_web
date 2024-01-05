@@ -1,20 +1,51 @@
 <!doctype html>
 <html>
-<head>
-    <title>Planner</title>
-    <meta charset="utf-8">
-</head>
+    <head>
+        <title>Planner</title>
+        <meta charset="utf-8">
+        <style>
+            a{
+                text-decoration: none;
+                color: black;
+            }
+            h1{
+                text-align: center;
+                border: 5px solid red;
+                padding: 10px;
+            }
+            #grid{
+                display: grid;
+                grid-template-columns: 250px 1fr;
+                border-bottom: 5px solid red;
+                border-top: 5px solid red;
+            }
+            rl{
+                border-right: 5px solid red;
+                padding-top: 10px;
+                font-size: 24px;
+            }
+            #img{
+                padding-left: 20px;
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+        </style>
+    </head>
 
-<body>
+    <body>
 
-    <h1><a href="index.html">2024년 계획</a></h1>
-    <ol>
-        <li><a href ="my1.html">겨울방학</a></li>
-        <li><a href ="my2.html">4학년 1학기</a></li>
-        <li><a href ="my3.html">여름방학</a></li>
-        <li><a href ="my4.html">4학년 2학기</a></li>
-    </ol>
-
-</body>
+        <h1><a href="index.html">2024년 계획</a></h1>
+        <div id="grid">
+        <rl>
+            <li><a href ="my1.html">겨울방학</a></li>
+            <li><a href ="my2.html">4학년 1학기</a></li>
+            <li><a href ="my3.html">여름방학</a></li>
+            <li><a href ="my4.html">4학년 2학기</a></li>
+        </rl>
+        <div id="img">
+        <img src="2024.jpg" width="100%">
+        </div>
+        </div>
+    </body>
 
 </html>
